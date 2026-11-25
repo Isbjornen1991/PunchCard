@@ -19,6 +19,9 @@
         }
 
 
+
+
+
         public void AddStamp()
         {
             if (!isBlocked)
@@ -26,6 +29,13 @@
                 Stamps = Stamps + 1;
             }
         }
+
+        public void DoubleStamp()
+        {
+            AddStamp();
+            AddStamp();
+        }
+
 
         public bool RedeemFreeCoffee()
         {
