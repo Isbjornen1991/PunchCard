@@ -12,15 +12,15 @@
             // Lag et kort, gi det stempler, og prøv å løse inn gratis kaffe.
             // Skriv ut resultatet med Console.WriteLine, slik at det er lett å se hva som skjer.
 
-            StampCard stampCard = new StampCard("Lars");
+            StampCard myStampCard = new StampCard("Lars");
 
-            Console.WriteLine($"{stampCard.Stamps}");
+            Console.WriteLine($"{myStampCard.Stamps}");
 
-            stampCard.AddStamp();
-            stampCard.AddStamp();
-            stampCard.AddStamp();
+            myStampCard.AddStamp();
+            myStampCard.AddStamp();
+            myStampCard.AddStamp();
 
-            Console.WriteLine($"{stampCard.Stamps}");
+            Console.WriteLine($"{myStampCard.Stamps}");
 
 
 
